@@ -51,6 +51,7 @@ export async function put(url, content = "") {
 }
 
 export function download(format, ...files) {
+  console.log("download", format, files);
   let url = `${baseURL}/api/raw`;
 
   if (files.length === 1) {
