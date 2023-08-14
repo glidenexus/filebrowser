@@ -38,10 +38,10 @@
             show="move"
           />
           <action
-            v-if="headerButtons.delete"
-            id="delete-button"
-            icon="delete"
-            :label="$t('buttons.delete')"
+            v-if="headerButtons.download"
+            id="download-button"
+            icon="download"
+            :label="$t('buttons.download')"
             show="delete"
           />
         </template>
